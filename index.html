@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Datos del alumno</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/temaapp2.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+  <script src ="phonegap.js"></script><!--necesario*/-->
+
+
+ </head>
+
+<body>
+
+ <div data-role="page" id "Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Datos Personales Del Alumno</h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Foto de perfil</h1>
+    <div>
+     <p>Esta es mi imagen del perfil</p>
+     <br> 
+    </div>
+    <div>
+     <img src="imagenes/foto.png" width="50%" height="50%"> 
+    </div>
+   </div>
+  </div>
+  <div>
+   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Datos Generales</h2>
+       <p>Se Muestra El Nombre</p> 
+      </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Fecha De Nacimiento</h2>
+       <p>Se Muestra el Dia, Mes y año de Nacimiento</p>  
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Domicilio</h2>
+       <p>Muestra Domicilio Del Alumno</p>  
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Deporte Favorito</h2>
+       <p>Muestra El Deporte Que Mas Le Agrada Al Alumno </p> 
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Otros gustos e intereses</h2>
+       <p>Muestra Otros Gustos Del Alumno</p> 
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Aplicación Dos</h4>
+    <h4>Christian Alexis Lucero Sanchez</h4>
+   </div>
+  </div>
+ </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>NOMBRE</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Lucero Sanchez Christian Alexis</h2>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Dos, CALS</h4>
+  </div>
+ </div>
+
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>FECHA DE NACIMIENTO</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>12 De Noviembre Del 2000</h2>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Dos, CALS</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Domicilio</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Privada Allende S/N,Teyuca</h2>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Dos, CALS</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>DEPORTE FAVORITO</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Aficionado al Futbol soccer(Hala Madrid w.w)</h2>
+    <img src="imagenes/deporte.jpg" width="50%" height="50%">
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Dos, CALS</h4>
+  </div>
+ </div>
+
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>GUSTOS E INTERESES</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Mis gustos por la musica son el rock,rap,bachata,cumbia, banda y mis interes son al futbol, la lectura y las ganas de ser un profecionalista, tengo mucho interes en los perros pitbull.</h2>
+    <img src="imagenes/pasatiempo.jpg" width="50%" height="50%">
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Dos, CALS</h4>
+  </div>
+ </div>
+
+</body>
+</html>
+        
